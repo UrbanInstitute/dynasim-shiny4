@@ -150,10 +150,7 @@ ui <- fluidPage(
     
     column(12,
            
-           titlePanel("Exploring Social Security Reform Options"),
-           
-           p("The Social Security trustees project that, by the mid-2030s, the system will no longer be able to pay all scheduled benefits. Which reform option should policymakers pursue to help balance the system?
-             Use our interactive tool to compare how different groups would fare, over time, under the following policy options."),
+           titlePanel("Exploring Pension Reform Options"),
            
            br()
            
