@@ -150,10 +150,7 @@ ui <- fluidPage(
     
     column(12,
            
-           titlePanel("Exploring Pension Reform Options"),
-           
-           br()
-           
+           titlePanel("Exploring Pension Reform Options")
            )
   ),
   

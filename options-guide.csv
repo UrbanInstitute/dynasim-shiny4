@@ -23,6 +23,8 @@ RothIRA2g,RothIRA2g,per capita,X:\programs\run912\RothIRA2g\BPCtableShellsRothIR
 RothIRA2g,RothIRA2g,equivalent,X:\programs\run912\RothIRA2g\BPCTableShellsEquivalentRothIRA2g.xlsx,X:\programs\run912\RothIRA2g\,BPCTableShellsEquivalentRothIRA2g.xlsx,FALSE
 RothIRA2nocashout,RothIRA2nocashout,per capita,X:\programs\run912\RothIRA2nocashout\BPCtableShellsRothIRA2nocashoutV2.xlsx,X:\programs\run912\RothIRA2nocashout\,BPCtableShellsRothIRA2nocashoutV2.xlsx,FALSE
 RothIRA2nocashout,RothIRA2nocashout,equivalent,X:\programs\run912\RothIRA2nocashout\BPCTableShellsEquivalentRothIRA2nocashout.xlsx,X:\programs\run912\RothIRA2nocashout\,BPCTableShellsEquivalentRothIRA2nocashout.xlsx,FALSE
+RothIRA2reenroll,RothIRA2reenroll,per capita,X:\programs\run912\RothIRA2reenroll\BPCtableShellsRothIRA2reenroll.xlsx,X:\programs\run912\RothIRA2reenroll\,BPCtableShellsRothIRA2reenroll.xlsx,FALSE
+RothIRA2reenroll,RothIRA2reenroll,equivalent,X:\programs\run912\RothIRA2reenroll\BPCtableShellsEquivalentRothIRA2reenroll.xlsx,X:\programs\run912\RothIRA2reenroll\,BPCtableShellsEquivalentRothIRA2reenroll.xlsx,FALSE
 RothIRA3,RothIRA3,per capita,X:\programs\run912\RothIRA3\BPCtableShellsRothIRA3V2.xlsx,X:\programs\run912\RothIRA3\,BPCtableShellsRothIRA3V2.xlsx,FALSE
 RothIRA3,RothIRA3,equivalent,X:\programs\run912\RothIRA3\BPCTableShellsEquivalentRothIRA3.xlsx,X:\programs\run912\RothIRA3\,BPCTableShellsEquivalentRothIRA3.xlsx,FALSE
 RothIRA3b,RothIRA3b,per capita,X:\programs\run912\RothIRA3b\BPCtableShellsRothIRA3bV2.xlsx,X:\programs\run912\RothIRA3b\,BPCtableShellsRothIRA3bV2.xlsx,FALSE
@@ -71,3 +73,7 @@ SAVEopt4,SAVEopt4,per capita,X:\programs\run912\SAVEopt4\BPCtableShellsSaveOpt4v
 SAVEopt4,SAVEopt4,equivalent,X:\programs\run912\SAVEopt4\BPCtableShellsEquivalentSAVEopt4.xlsx,X:\programs\run912\SAVEopt4\,BPCtableShellsEquivalentSAVEopt4.xlsx,FALSE
 SAVEopt4b,SAVEopt4b,per capita,X:\programs\run912\SAVEopt4b\BPCtableShellsEquivalentSaveOpt4b.xlsx,X:\programs\run912\SAVEopt4b\,BPCtableShellsEquivalentSaveOpt4b.xlsx,FALSE
 SAVEopt4b,SAVEopt4b,equivalent,X:\programs\run912\SAVEopt4b\BPCtableShellsSaveOpt4bv2.xlsx,X:\programs\run912\SAVEopt4b\,BPCtableShellsSaveOpt4bv2.xlsx,FALSE
+MyRA2,MyRA2,per capita,X:\programs\run912\MyRA2\BPCtableShellsMyRA2v2.xlsx.xlsx,X:\programs\run912\MyRA2\,BPCtableShellsMyRA2v2.xlsx.xlsx,FALSE
+MyRA2,MyRA2,equivalent,X:\programs\run912\MyRA2\BPCtableShellsEquivalentMyRA2v2.xlsx.xlsx,X:\programs\run912\MyRA2\,BPCtableShellsEquivalentMyRA2v2.xlsx.xlsx,FALSE
+MyRA2f,MyRA2f,per capita,X:\programs\run912\MyRA2f\BPCtableShellsMyRA2f.xlsx,X:\programs\run912\MyRA2f\,BPCtableShellsMyRA2f.xlsx,FALSE
+MyRA2f,MyRA2f,equivalent,X:\programs\run912\MyRA2f\BPCtableShellsEquivalentMyRA2f.xlsx,X:\programs\run912\MyRA2f\,BPCtableShellsEquivalentMyRA2f.xlsx,FALSE
