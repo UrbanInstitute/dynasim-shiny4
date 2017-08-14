@@ -230,7 +230,11 @@ ui <- fluidPage(
                               "Spouse Benefit" = "Spouse Benefit",
                               "Spouse Earnings" = "Spouse Earnings",
                               "SSI" = "SSI",
-                              "State Income Tax" = "State Income Tax"))),
+                              "State Income Tax" = "State Income Tax",
+                              "Financial Assets" = "Financial Assets",
+                              "Home Equity" = "Home Equity",
+                              "Retirement Account Assets" = "Retirement Account Assets",
+                              "Total Assets" = "Total Assets"))),
 
     column(6, 
       selectInput(inputId = "comparison",
