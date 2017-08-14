@@ -2,7 +2,6 @@
 library(shiny)
 library(tidyverse)
 library(scales)
-library(stringr)
 
 options(scipen = 999)
 
@@ -86,7 +85,8 @@ table(income$scale %in% assets$scale)
 table(income$baseline %in% assets$baseline)
 table(income$comparison %in% assets$comparison)
 
-distribution <- left_join(income, assets, by = c("group", "subgroup", "year", "percentile", "option", "scale", "baseline", "comparison"))
+income <- left_join(income, assets, by = c("group", "subgroup", "year", "percentile", "option", "scale", "baseline", "comparison"))
+rm(income, assets)
 
 # Gather the data
 distribution <- distribution %>%
@@ -372,7 +372,7 @@ server <- function(input, output) {
     if (input$income.tax.premium == "SSI") {"SSI"} else
     if (input$income.tax.premium == "State Income Tax") {"State Income Tax"}
     
-    paste(comparison, as.character(input$year), str_to_title(input$scale), incomes.taxes)
+    paste(comparison, as.character(input$year), stringr::str_to_title(input$scale), incomes.taxes)
     
   })
   
