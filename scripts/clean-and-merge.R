@@ -1,7 +1,5 @@
 ## Libraries and Source Files
-library(shiny)
 library(tidyverse)
-library(scales)
 
 options(scipen = 999)
 
@@ -50,6 +48,13 @@ table(income$baseline %in% assets$baseline)
 table(income$comparison %in% assets$comparison)
 
 distribution <- left_join(income, assets, by = c("group", "subgroup", "year", "percentile", "option", "scale", "baseline", "comparison"))
+
+distribution <- distribution %>%
+  select(-`DB Pension Income`, -`Earned Income`, -`HI Tax`, -`OASDI Tax`, 
+         -`Other Family Member Income`, -`Own Benefit`, -`Own Earnings`,
+         -`Dividend Income`, -`Interest Income`, -`Rental Income`, 
+         -`Social Security Benefits`, -`Spouse Benefit`, -`Spouse Earnings`, 
+         -`Home Equity`)
 
 rm(income, assets)
 file.remove("data/incomes.csv")
