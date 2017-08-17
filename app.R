@@ -161,8 +161,7 @@ ui <- fluidPage(
     column(6,
       selectInput(inputId = "option",
                   label = "Pension Reform",
-                  choices = c("Payable Law" = "Payable Law",
-                              "Scheduled Law" = "Scheduled Law",
+                  choices = c("Scheduled Law" = "Scheduled Law",
                               "BPC Option" = "BPC Package",
                               "RothIRA2" = "RothIRA2",
                               "RothIRA2allpart" = "RothIRA2allpart",
@@ -200,8 +199,8 @@ ui <- fluidPage(
 
       selectInput(inputId = "baseline",
                   label = "Baseline",
-                  choices = c("Current Law Payable" = "Payable Law",
-                              "Current Law Scheduled" = "Scheduled Law")),      
+                  choices = c("Current Law Scheduled" = "Scheduled Law",
+                              "RothIRA2" = "RothIRA2")),      
       
       selectInput(inputId = "income.tax.premium",
                   label = "Income, Tax, or Asset",

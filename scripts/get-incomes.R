@@ -184,12 +184,11 @@ final.distribution <- final.distribution %>%
 
 # Create a baseline data frame
 baselines <- final.distribution %>%
-  filter(option == "Scheduled Law" | option == "Payable Law") %>%
+  filter(option == "Scheduled Law" | option == "RothIRA2") %>%
   rename(baseline.value = value, baseline.type = option)
 
 # Create a options data frame
 options <- final.distribution
-#  filter(option != "Scheduled Law" & option != "Payable Law")
 # Should be 1,378,944 observations
 
 final.distribution <- left_join(options, baselines, by = c("subgroup", "year", "percentile", "group", "scale", "incomes.taxes"))

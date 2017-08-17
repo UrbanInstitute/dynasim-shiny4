@@ -54,7 +54,8 @@ distribution <- distribution %>%
          -`Other Family Member Income`, -`Own Benefit`, -`Own Earnings`,
          -`Dividend Income`, -`Interest Income`, -`Rental Income`, 
          -`Social Security Benefits`, -`Spouse Benefit`, -`Spouse Earnings`, 
-         -`Home Equity`)
+         -`Home Equity`, -`Imputed Rental Income`) %>%
+  filter(option != "Payable Law")
 
 rm(income, assets)
 file.remove("data/incomes.csv")

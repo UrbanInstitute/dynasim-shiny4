@@ -123,12 +123,11 @@ final.distribution <- pmap(list(files$link, files$bpc_boolean, files$option, fil
 
 # Create a baseline data frame
 baselines <- final.distribution %>%
-  filter(option == "Scheduled Law" | option == "Payable Law") %>%
+  filter(option == "Scheduled Law" | option == "RothIRA2") %>%
   rename(baseline.value = incomes.taxes, baseline.type = option)
 
 # Create a options data frame
 options <- final.distribution
-#  filter(option != "Scheduled Law" & option != "Payable Law")
 
 final.distribution <- left_join(options, baselines, by = c("subgroup", "year", "percentile", "group", "scale", "income.source"))
 
