@@ -1,0 +1,15 @@
+baseline,text
+RothIRA2,"<h4>RothIRA2</h4>
+
+<p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
+
+<p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate. </p>
+
+<ul>
+<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
+<li>60% of MEP participants take default. </li>
+<li>Firms with 10 or more workers.</li>
+<li>Apply Roth AGI limits.</li>
+<li>Apply Roth contribution limits.</li>
+</ul>"
+Scheduled Law,"<p><h4>Current Law Scheduled</h4></p><p>Assumes that current public policies, business practices, and individual behaviors continue, and that Social Security benefits are paid as promised, even after the trust fund runs out.</p>"
