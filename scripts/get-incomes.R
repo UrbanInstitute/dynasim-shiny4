@@ -146,8 +146,8 @@ distribution_scraper <- function(link, bpcpackage, option_label, scale_label) {
                                           "Top Quintile (Lifetime Earnings)"), 
                           "Lifetime Earnings Quintile", group))
   
-  option_label <- enquo(option_label)
-  scale_label <- enquo(scale_label)
+  #option_label <- enquo(option_label)
+  #scale_label <- enquo(scale_label)
   
   # Mutate numeric variables into class dbl, simplify quintiles, and add options/scales labels
   distribution <- distribution %>%
@@ -184,7 +184,7 @@ final.distribution <- final.distribution %>%
 
 # Create a baseline data frame
 baselines <- final.distribution %>%
-  filter(option == "Scheduled Law" | option == "RothIRA2") %>%
+  filter(option == "Scheduled law" | option == "RothIRA2") %>%
   rename(baseline.value = value, baseline.type = option)
 
 # Create a options data frame
