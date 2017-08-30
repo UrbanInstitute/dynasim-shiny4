@@ -1,5 +1,5 @@
 option,text
-BPC Package,"<h4>BPC Package</h4><p>Annual PIA, limit spousal benefits, replace the WEP and GPO with a proportional reduction in OASI benefits based on covered earnings, enhance survivor benefits, increase the progressivity of the benefit formula, increase Social Security tax max to $195,000, payroll tax to 13.4% and FRA to 69, switch to C-CPI-U for COLAs, end 'claim-and-suspend' games, create a basic minimum benefit for all individuals above the FRA eligible for Social Security, and tax 100 percent of Social Security benefits for beneficiaries with annual incomes above $250,000.</p>"
+BPC Package,"<h4>BPC Package</h4><p>Provides an annual primary insurance amount; limits spousal benefits; replaces the windfall elimination provision and government pension offset with a proportional reduction in Old-Age and Survivors Insurance benefits based on covered earnings; enhances survivor benefits; increases the progressivity of the benefit formula; increases the Social Security tax max to $195,000, the payroll tax to 13.4 percent, and the full retirement age to 69; switches to chained CPI-U for cost of living adjustments; ends “claim-and-suspend” games; creates a basic minimum benefit for all individuals above the full retirement age eligible for Social Security; and taxes 100 percent of Social Security benefits for beneficiaries with annual incomes above $250,000.</p>"
 Scheduled Law,"<p><h4>Scheduled Law</h4>Assumes that current public policies, business practices, and individual behaviors continue, and that Social Security benefits are paid as promised, even after the trust fund runs out.</p>"
 Payable Law,"<p><h4>Payable Law</h4>Assumes that current public policies, business practices, and individual behaviors continue, but reduces Social Security benefits by a uniform amount after the trust fund runs out so that all benefits in each year can be paid out of revenues from that year. </p>"
 RothIRA2,"<h4>RothIRA2</h4>
@@ -9,10 +9,10 @@ RothIRA2,"<h4>RothIRA2</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate. </p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA2allpart,"<h4>RothIRA2allpart</h4>
@@ -22,13 +22,13 @@ RothIRA2allpart,"<h4>RothIRA2allpart</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>60 percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 <li>No cashouts for MEP plans.</li>
-<li>Force DC participation for MEP candidates.</li>
+<li>Force defined-contribution participation for MEP candidates.</li>
 </ul>"
 RothIRA2b,"<h4>RothIRA2b</h4>
 
@@ -37,10 +37,10 @@ RothIRA2b,"<h4>RothIRA2b</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>90% of participants take default.</li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Ninety percent of participants take default.</li>
 <li>Firms with 10 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA2c,"<h4>RothIRA2c</h4>
@@ -50,10 +50,10 @@ RothIRA2c,"<h4>RothIRA2c</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>60% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Sixty percent of MEP participants take default.</li>
 <li>Firms with 1 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA2d,"<h4>RothIRA2d</h4>
@@ -63,10 +63,10 @@ RothIRA2d,"<h4>RothIRA2d</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>60% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Sixty percent of MEP participants take default.</li>
 <li>Firms with 25 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA2e,"<h4>RothIRA2e</h4>
@@ -76,10 +76,10 @@ RothIRA2e,"<h4>RothIRA2e</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>90% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Ninety percent of MEP participants take default.</li>
 <li>Firms with 25 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA2f,"<h4>RothIRA2f</h4>
@@ -89,10 +89,10 @@ RothIRA2f,"<h4>RothIRA2f</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in TSP G fund</li>
-<li>90% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in Thrift Savings Plan G-Fund</li>
+<li>Ninety percent of MEP participants take default.</li>
 <li>Firms with 25 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA2g,"<h4>RothIRA2g</h4>
@@ -102,11 +102,11 @@ RothIRA2g,"<h4>RothIRA2g</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan</li>
-<li>60% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Sixty percent of MEP participants take default.</li>
 <li>Firms with 10 or more workers. </li>
-<li>NO Roth AGI limits.</li>
-<li>Use 401k contribution limits</li>
+<li>No Roth adjusted gross income limits.</li>
+<li>Use 401(k) contribution limits</li>
 </ul>"
 RothIRA2nocashout,"<h4>RothIRA2nocashout</h4>
 
@@ -115,22 +115,24 @@ RothIRA2nocashout,"<h4>RothIRA2nocashout</h4>
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
-<li>Apply Roth AGI limits. </li>
+<li>Apply Roth adjusted gross income limits. </li>
 <li>Apply Roth contribution limits.</li>
 <li>No cashouts from MEP plans.</li>
 </ul>"
-RothIRA2reenroll,"<p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
+RothIRA2reenroll,"<h4>RothIRA2reenroll</h4>
+
+<p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
 <p>The <strong>RothIRA2</strong> series all assume a 3 percent default contribution rate.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
-<li>Apply Roth AGI limits. </li>
+<li>Apply Roth adjusted gross income limits. </li>
 <li>Apply Roth contribution limits.</li>
 <li>Automatically reenroll workers annually.</li>
 </ul>"
@@ -141,10 +143,10 @@ RothIRA3,"<h4>RothIRA3</h4>
 <p>The <strong>RothIRA3</strong> series all assume a 5 percent default contribution rate. </p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 5% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 5 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA3b,"<h4>RothIRA3b</h4>
@@ -154,10 +156,10 @@ RothIRA3b,"<h4>RothIRA3b</h4>
 <p>The <strong>RothIRA3</strong> series all assume a 5 percent default contribution rate. </p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 5% default investment in Target Date Plan. </li>
-<li>90% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 5 percent default investment in target date plan. </li>
+<li>Ninety percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA3c,"<h4>RothIRA3c</h4>
@@ -167,10 +169,10 @@ RothIRA3c,"<h4>RothIRA3c</h4>
 <p>The <strong>RothIRA3</strong> series all assume a 5 percent default contribution rate. </p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 5% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 5 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 1 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA3d,"<h4>RothIRA3d</h4>
@@ -180,91 +182,91 @@ RothIRA3d,"<h4>RothIRA3d</h4>
 <p>The <strong>RothIRA3</strong> series all assume a 5 percent default contribution rate. </p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 6% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 6 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 25 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA4,"<h4>RothIRA4</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates one percentage point per year up to 10 percent.</p>
+<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates 1 percentage point per year up to 10 percent.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>Autoescalate to 10%.</li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Autoescalate to 10 percent.</li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA4b,"<h4>RothIRA4b</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates one percentage point per year up to 10 percent.</p>
+<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates 1 percentage point per year up to 10 percent.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>Autoescalate to 10%. </li>
-<li>90% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Autoescalate to 10 percent. </li>
+<li>Ninety percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA4c,"<h4>RothIRA4c</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates one percentage point per year up to 10 percent.</p>
+<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates 1 percentage point per year up to 10 percent.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>Autoescalate to 10%. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Autoescalate to 10 percent. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 1 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRA4d,"<h4>RothIRA4d</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates one percentage point per year up to 10 percent.</p>
+<p>The <strong>RothIRA4</strong> series all assume a 3 percent default contribution rate that automatically escalates 1 percentage point per year up to 10 percent.</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>Autoescalate to 10%. </li>
-<li>90% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Autoescalate to 10 percent. </li>
+<li>Ninety percent of MEP participants take default. </li>
 <li>Firms with 25 or more workers. </li>
-<li>Apply Roth AGI limits.</li>
+<li>Apply Roth adjusted gross income limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRAHighLimits,"<h4>RothIRAHighLimits</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers.</li>
 <li>Apply Roth AGI limits.</li>
-<li>Use 401k contribution limits.</li>
+<li>Use 401(k) contribution limits.</li>
 </ul>"
 RothIRALimit2,"<h4>RothIRALimit2</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
-<li>Firms with 10 or more workers </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
+<li>Firms with 10 or more workers. </li>
 <li>No Roth AGI limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
@@ -272,24 +274,24 @@ RothIRALimit2b,"<h4>RothIRALimit2b</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>90% of MEP participants take default. </li>
-<li>Firms with 10 or more workers </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Ninety percent of MEP participants take default. </li>
+<li>Firms with 10 or more workers.</li>
 <li>No Roth AGI limits.</li>
-<li>Apply Roth contribution limits</li>
+<li>Apply Roth contribution limits.</li>
 </ul>"
 RothIRALimit2c,"<h4>RothIRALimit2c</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 1 or more workers. </li>
 <li>No Roth AGI limit.</li>
 <li>Apply Roth contribution limits.</li>
@@ -298,11 +300,11 @@ RothIRALimit2d,"<h4>RothIRALimit2d</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 25 or more workers. </li>
 <li>No Roth AGI limits.</li>
 <li>Apply Roth contribution limits.</li>
@@ -311,11 +313,11 @@ RothIRALimit2e,"<h4>RothIRALimit2e</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>90% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Ninety percent of MEP participants take default. </li>
 <li>Firms with 25 or more workers. </li>
 <li>No AGI limits.</li>
 <li>Apply Roth contribution limits.</li>
@@ -324,11 +326,11 @@ RothIRALimit3,"<h4>RothIRALimit3</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 5% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 5 percent default investment in target date plan. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers. </li>
 <li>No Roth AGI limits.</li>
 <li>Apply Roth contribution limits.</li>
@@ -337,11 +339,11 @@ RothIRALimit3b,"<h4>RothIRALimit3b</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 5% default investment in Target Date Plan. </li>
-<li>90% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 5 percent default investment in target date plan. </li>
+<li>Ninety percent of MEP participants take default. </li>
 <li>Firms with 10 or more workers.  </li>
 <li>No Roth AGI limits.</li>
 <li>Apply Roth contribution limits.</li>
@@ -350,114 +352,111 @@ RothIRALimit4,"<h4>RothIRALimit4</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>RothIRAlimit</strong> series all remove the AGI limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
+<p>The <strong>RothIRAlimit</strong> series all remove the adjusted gross income (AGI) limit that restricts contributions for tax filers with AGI above price-adjusted thresholds (phase out between $118,000 and $133,000 for singles and between $186,000 and $196,000 for couples in 2017).</p>
 
 <ul>
-<li>Beginning in 2020, mandate Roth-IRA plan with automatic enrollment and 3% default investment in Target Date Plan escalate to 10%. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth IRA plan with automatic enrollment and 3 percent default investment in target date plan escalate to 10 percent. </li>
+<li>Sixty percent of MEP participants take default. </li>
 <li>Firm with 10 or more workers.  </li>
 <li>No Roth AGI limits.</li>
 <li>Apply Roth contribution limits.</li>
 </ul>"
 SAVEopt2,"<h4>SAVEopt2</h4>
 
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
 
 <ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>60% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Sixty percent of mandated employer plan participants take default.</li>
 <li>Firms with 1 or more workers.</li>
 <li>No AGI limits.</li>
 </ul>"
 SaveOpt2b,"<h4>SaveOpt2b</h4>
 
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
 
 <ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 3% default investment in Target Date Plan.</li>
-<li>90% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 3 percent default investment in target date plan.</li>
+<li>Ninety percent of mandated employer plan participants take default.</li>
 <li>Firms with 1 or more workers.</li>
 <li>No AGI limits.</li>
-<li>Use 401k contribution limits</li>
+<li>Use 401(k) contribution limits</li>
 </ul>"
 SaveOpt2firm10,"<h4>SaveOpt2firm10</h4>
 
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
 
 <ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 3% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 3 percent default investment in target date plan. </li>
+<li>Sixty percent of mandated employer plan participants take default. </li>
 <li>Firms with 10 or more workers. </li>
 <li>Apply Roth AGI limits. </li>
-<li>Use 401k contribution limits.</li>
+<li>Use 401(k) contribution limits.</li>
 </ul>"
 SaveOpt3,"<h4>SaveOpt3</h4>
 
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
 
 <ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 5% default investment in Target Date Plan. </li>
-<li>60% of MEP participants take default.</li>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 5 percent default investment in target date plan. </li>
+<li>Sixty percent of mandated employer plan participants take default.</li>
 <li>Firms with 1 or more workers.</li>
 <li>No AGI limits.</li>
-<li>Use 401k contribution limits.</li>
+<li>Use 401(k) contribution limits.</li>
 </ul>"
 SAVEopt3b,"<h4>SAVEopt3b</h4>
 
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
 
 <ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 5% default investment in Target Date Plan.</li>
-<li>90% of MEP participants take default.</li>
-<li>Firms with 1 or more workers</li>
-<li>No AGI limits.</li>
-<li>Use 401k contribution limits.</li>
-</ul>"
-SAVEopt4,"
-<h4>SAVEopt4</h4>
-
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
-
-<ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 3% default investment escalating by 1 percentage point per year up to 10 percent in Target Date Plan. </li>
-<li>60% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 5 percent default investment in target date plan.</li>
+<li>Ninety percent of mandated employer plan participants take default.</li>
 <li>Firms with 1 or more workers.</li>
 <li>No AGI limits.</li>
-<li>Use 401k contribution limits.</li>
+<li>Use 401(k) contribution limits.</li>
+</ul>"
+SAVEopt4,"<h4>SAVEopt4</h4>
+
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+
+<ul>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 3 percent default investment escalating by 1 percentage point per year up to 10 percent in target date plan. </li>
+<li>Sixty percent of mandated employer plan participants take default. </li>
+<li>Firms with 1 or more workers.</li>
+<li>No AGI limits.</li>
+<li>Use 401(k) contribution limits.</li>
 </ul>"
 SAVEopt4b,"<h4>SAVEopt4b</h4>
 
-<p>The <strong>SaveOpt</strong> series model employer mandates that use 401k plan parameters instead of Roth-IRA parameters. These include 401k contribution limits and no AGI eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
+<p>The <strong>SaveOpt</strong> series model employer mandates that use 401(k) plan parameters instead of Roth IRA parameters. These include 401(k) contribution limits and no adjusted gross income (AGI) eligibility limits. Contributions are made in pre-tax dollars and taxable at withdrawal.</p>
 
 <ul>
-<li>Beginning in 2020, mandate ROTH-401k plan with automatic enrollment and 3% default investment escalating by 1 percentage point per year up to 10 percent in Target Date Plan. </li>
-<li>90% of MEP participants take default. </li>
+<li>Beginning in 2020, mandate Roth 401(k) plan with automatic enrollment and 3 percent default investment escalating by 1 percentage point per year up to 10 percent in target date plan. </li>
+<li>Ninety percent of mandated employer plan participants take default. </li>
 <li>Firms with 1 or more workers.</li>
 <li>No AGI limits.</li>
-<li>Use 401k contribution limits.</li>
+<li>Use 401(k) contribution limits.</li>
 </ul>"
 MyRA2,"<h4>MyRA2</h4>
-<p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
 
-<p>The <strong>MyRA</strong> series limits investment type to safe, no-fee, long-term treasury bonds (Thrift Plan G-fund). </p>
+<p>The <strong>MyRA</strong> series limits investment type to safe, no-fee, long-term treasury bonds (Thrift Savings Plan G-Fund). </p>
 
 <ul>
 <li>Beginning in 2020, mandate MyRA plan with automatic enrollment </li>
-<li>60% of MEP participants take default. </li>
+<li>Sixty percent of mandated employer plan participants take default. </li>
 <li>Firms with 1 or more workers.</li>
-<li>Apply Roth AGI limits.</li>
-<li>100 percent of asset allocation is invested in the Thrift Savings Plan G fund.</li>
+<li>Apply Roth adjusted gross income limits.</li>
+<li>One hundred percent of asset allocation is invested in the Thrift Savings Plan G-Fund.</li>
 </ul>"
-MyRA2f,"<h4>MyRA2f (low impact scenario)</h4>
-<p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
+MyRA2f,"<h4>MyRA2f (low-impact scenario)</h4>
 
-<p>The <strong>MyRA</strong> series limits investment type to safe, no-fee, long-term treasury bonds (Thrift Plan G-fund). </p>
+<p>The <strong>MyRA</strong> series limits investment type to safe, no-fee, long-term treasury bonds (Thrift Savings Plan G-Fund). </p>
 
 <ul>
 <li>Beginning in 2020, mandate MyRA plan with automatic enrollment </li>
-<li>90% of MEP participants take default. </li>
+<li>Ninety percent of mandated employer plan participants take default. </li>
 <li>Firms with 25 or more workers.</li>
-<li>Include AGI limits.</li>
-<li>100 percent of asset allocation is invested in the Thrift Savings Plan G fund.</li>
+<li>Include adjusted gross income limits.</li>
+<li>One hundred percent of asset allocation is invested in the Thrift Savings Plan G-Fund.</li>
 </ul>
 "
