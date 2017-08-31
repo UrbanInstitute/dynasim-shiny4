@@ -125,7 +125,13 @@ ui <- fluidPage(
     
     column(12,
            
-           titlePanel("Exploring Pension Reform Options")
+           p("Defined-contribution pensions are an important source of 
+             retirement savings for future retirees. How can more Americans 
+             access the benefits of DC pensions and better prepare for 
+             retirement? Use this interactive tool to explore the impacts of DC 
+             pension reform across the income and wealth distributions for 
+             different populations from 2015 to 2065.")
+           
            )
   ),
   
