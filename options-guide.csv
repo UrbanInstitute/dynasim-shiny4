@@ -1,10 +1,10 @@
 option.name,option,scale,link,directory,file,bpc_boolean
-Opt0,Scheduled Law,per capita,X:\programs\run912\opt0\BPCtableShellsOPT0.xlsx,X:\programs\run912\opt0\,BPCtableShellsOPT0.xlsx,FALSE
-Opt0,Scheduled Law,equivalent,X:\programs\run912\opt0\BPCtableShellsEQOPT0.xlsx,X:\programs\run912\opt0\,BPCtableShellsEQOPT0.xlsx,FALSE
-Opt0,Payable Law,per capita,X:\programs\run912\payable\BPCtableShellsPayable.xlsx,X:\programs\run912\payable\,BPCtableShellsPayable.xlsx,FALSE
-Opt0,Payable Law,equivalent,X:\programs\run912\payable\BPCtableShellsEquivalentPayable.xlsx,X:\programs\run912\payable\,BPCtableShellsEquivalentPayable.xlsx,FALSE
-BPC Package,BPC Package,per capita,X:\programs\Run912\Run5SaveOpt4\BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,X:\programs\Run912\Run5SaveOpt4\,BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,TRUE
-BPC Package,BPC Package,equivalent,X:\programs\Run912\Run5SaveOpt4\BPCtableShellsEquivalentRun5SaveOpt4.xlsx,X:\programs\Run912\Run5SaveOpt4\,BPCtableShellsEquivalentRun5SaveOpt4.xlsx,TRUE
+Opt0,Scheduled law,per capita,X:\programs\run912\opt0\BPCtableShellsOPT0.xlsx,X:\programs\run912\opt0\,BPCtableShellsOPT0.xlsx,FALSE
+Opt0,Scheduled law,equivalent,X:\programs\run912\opt0\BPCtableShellsEQOPT0.xlsx,X:\programs\run912\opt0\,BPCtableShellsEQOPT0.xlsx,FALSE
+Opt0,Payable law,per capita,X:\programs\run912\payable\BPCtableShellsPayable.xlsx,X:\programs\run912\payable\,BPCtableShellsPayable.xlsx,FALSE
+Opt0,Payable law,equivalent,X:\programs\run912\payable\BPCtableShellsEquivalentPayable.xlsx,X:\programs\run912\payable\,BPCtableShellsEquivalentPayable.xlsx,FALSE
+BPC package,BPC package,per capita,X:\programs\Run912\Run5SaveOpt4\BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,X:\programs\Run912\Run5SaveOpt4\,BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,TRUE
+BPC package,BPC package,equivalent,X:\programs\Run912\Run5SaveOpt4\BPCtableShellsEquivalentRun5SaveOpt4.xlsx,X:\programs\Run912\Run5SaveOpt4\,BPCtableShellsEquivalentRun5SaveOpt4.xlsx,TRUE
 RothIRA2,RothIRA2,per capita,X:\programs\run912\RothIRA2\BPCtableShellsRothIRA2.xlsx,X:\programs\run912\RothIRA2\,BPCtableShellsRothIRA2.xlsx,FALSE
 RothIRA2,RothIRA2,equivalent,X:\programs\run912\RothIRA2\BPCtableShellsEquivalentRothIRA2.xlsx,X:\programs\run912\RothIRA2\,BPCtableShellsEquivalentRothIRA2.xlsx,FALSE
 RothIRA2allpart,RothIRA2allpart,per capita,X:\programs\run912\RothIRA2allpart\BPCtableShellsRothIRA2allpart.xlsx,X:\programs\run912\RothIRA2allpart\,BPCtableShellsRothIRA2allpart.xlsx,FALSE
