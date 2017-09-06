@@ -177,6 +177,19 @@ ui <- fluidPage(
                   label = "Pension Reform",
                   choices = c("Scheduled law" = "Scheduled law",
                               "BPC package" = "BPC package",
+                              "Low fees" = "Low fees",
+                              "Rebalance every 5 years" = "Rebalance every 5 years",
+                              "Low participation" = "Low participation",
+                              "High participation" = "High participation",
+                              "Less risk" = "Less risk",
+                              "More risk" = "More risk",
+                              "No target date funds" = "No target date funds",
+                              "No auto-enrollment" = "No auto-enrollment",
+                              "No cash outs" = "No cash outs",
+                              "All Roth-401k accounts #1" = "All Roth-401k accounts #1",
+                              "All Roth-401k accounts #2" = "All Roth-401k accounts #2",
+                              #"Mandated employer plans (60%)" = "Mandated employer plans (60%)",
+                              #"Mandated employer plans (100%)" = "Mandated employer plans (100%)",
                               "RothIRA2" = "RothIRA2",
                               "RothIRA2allpart" = "RothIRA2allpart",
                               "RothIRA2b" = "RothIRA2b",
@@ -227,8 +240,8 @@ ui <- fluidPage(
                               "Medicare surtax" = "Medicare Surtax",
                               "Net annuity income" = "Net Annuity Income",
                               "Net cash income" = "Net Cash Income",
-                              "Annuity income" = "Annuity Income",
-                              "Cash income" = "Cash Income",
+                              "Gross annuity income" = "Annuity Income",
+                              "Gross cash income" = "Cash Income",
                               "IRA withdrawal" = "IRA Withdrawal",
                               "Supplemental Security Income" = "SSI",
                               "State income tax" = "State Income Tax"))),
@@ -339,8 +352,8 @@ server <- function(input, output) {
     if (input$income.tax.premium == "Other Family Member Income") {"other family member income"} else
     if (input$income.tax.premium == "Own Benefit") {"own benefit"} else
     if (input$income.tax.premium == "Own Earnings") {"own earnings"} else
-    if (input$income.tax.premium == "Annuity Income") {"annuity income"} else
-    if (input$income.tax.premium == "Cash Income") {"cash income"} else
+    if (input$income.tax.premium == "Annuity Income") {"gross annuity income"} else
+    if (input$income.tax.premium == "Cash Income") {"gross cash income"} else
     if (input$income.tax.premium == "Dividend Income") {"dividend income"} else
     if (input$income.tax.premium == "Interest Income") {"interest income"} else
     if (input$income.tax.premium == "IRA Withdrawal") {"IRA withdrawal"} else
