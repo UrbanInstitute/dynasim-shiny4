@@ -95,3 +95,5 @@ NPVAllRoth,All Roth-401k accounts #1,per capita,X:\programs\run912\NPVallroth\BP
 NPVAllRoth,All Roth-401k accounts #1,equivalent,X:\programs\run912\NPVallroth\BPCtableShellsEquivalentNPVallroth.xlsx,X:\programs\run912\NPVallroth\,BPCtableShellsEquivalentNPVallroth.xlsx,FALSE
 NPVRothSaver,All Roth-401k accounts #2,per capita,X:\programs\run912\NPVRothSaver\BPCtableShellsNPVrothsaver.xlsx,X:\programs\run912\NPVRothSaver\,BPCtableShellsNPVrothsaver.xlsx,FALSE
 NPVRothSaver,All Roth-401k accounts #2,equivalent,X:\programs\run912\NPVRothSaver\BPCtableShellsEquivalentNPVrothsaver.xlsx,X:\programs\run912\NPVRothSaver\,BPCtableShellsEquivalentNPVrothsaver.xlsx,FALSE
+DOLrepeat70s,Repeat the 1970s,per capita,X:\programs\run912\DOLrepeat70s\BPCtableShellsDOLrepeat70s.xlsx,X:\programs\run912\DOLrepeat70s\,BPCtableShellsDOLrepeat70s.xlsx,FALSE
+DOLrepeat70s,Repeat the 1970s,equivalent,X:\programs\run912\DOLrepeat70s\BPCtableShellsEQUIVALENTDOLrepeat70s.xlsx,X:\programs\run912\DOLrepeat70s\,BPCtableShellsEQUIVALENTDOLrepeat70s.xlsx,FALSE

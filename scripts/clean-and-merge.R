@@ -39,7 +39,7 @@ assets <- assets %>%
          group = if_else(group == "Income Quintile", "Per Capita Income Quintile", group))
 
 table(income$group %in% assets$group)
-table(income$subgroup %in% assets$subgroup)     # PROBLEM!
+table(income$subgroup %in% assets$subgroup)
 table(income$year %in% assets$year)
 table(income$percentile %in% assets$percentile)
 table(income$option %in% assets$option)
@@ -49,6 +49,8 @@ table(income$comparison %in% assets$comparison)
 
 distribution <- left_join(income, assets, by = c("group", "subgroup", "year", "percentile", "option", "scale", "baseline", "comparison"))
 
+rm(assets, income)
+
 distribution <- distribution %>%
   select(-`DB Pension Income`, -`Earned Income`, -`HI Tax`, -`OASDI Tax`, 
          -`Other Family Member Income`, -`Own Benefit`, -`Own Earnings`,
@@ -57,8 +59,40 @@ distribution <- distribution %>%
          -`Home Equity`, -`Imputed Rental Income`) %>%
   filter(option != "Payable law")
 
-rm(income, assets)
+# Fix several labels
+distribution <- distribution %>%
+  rename(`Medicare Surtax` = `Medicare SurTax`) %>%
+  mutate(group = gsub("Per Capita ", "", group)) %>%
+  mutate(subgroup = gsub(" \\(Income\\)", "", subgroup))
+
+# Create tibble with % with income
+percent_with_income <- distribution %>%
+  filter(percentile == "Percent with Income Source") %>%
+  filter(group == "All Individuals") %>%
+  filter(comparison == "level") %>%
+  filter(baseline == "Scheduled law") %>%
+  filter(scale == "per capita")
+
+
+# Create tibble with just mean and percentiles
+distribution <- distribution %>%
+  filter(percentile != "Percent with Income Source")
+
+# write have income data 
+write_csv(percent_with_income, "data/percent-with-income.csv")
+
+# write levels data set
+distribution %>%
+  filter(comparison == "level") %>%
+  select(-comparison) %>%
+  write_csv("data/level.csv")
+
+# write dollar.change data set
+distribution %>%
+  filter(comparison == "dollar.change") %>%
+  select(-comparison) %>%
+  write_csv("data/dollar-change.csv")
+
+# Delete extra data sets
 file.remove("data/incomes.csv")
 file.remove("data/assets.csv")
-
-write_csv(distribution, "data/distribution.csv")
