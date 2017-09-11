@@ -263,8 +263,8 @@ ui <- fluidPage(
                               "Race or ethnicity" = "Race/Ethnicity",
                               "Education" = "Education",
                               "Marital status" = "Marital Status",
-                              "Income quintile" = "Income Quintile",
-                              "Lifetime earnings quintile" = "Lifetime Earnings Quintile")),
+                              "Shared income quintile" = "Income Quintile",
+                              "Shared lifetime earnings quintile" = "Lifetime Earnings Quintile")),
       
       selectInput(inputId = "scale",
                   label = "Scale",
