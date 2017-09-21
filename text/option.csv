@@ -2,7 +2,6 @@ option,text
 BPC package,"<h4>Bipartisan Policy Center package</h4><p>Annual PIA, limit spousal benefits, replace the WEP and GPO with a proportional reduction in OASI benefits based on covered earnings, enhance survivor benefits, increase the progressivity of the benefit formula, increase Social Security tax max to $195,000, payroll tax to 13.4% and FRA to 69, switch to C-CPI-U for COLAs, end 'claim-and-suspend' games, create a basic minimum benefit for all individuals above the FRA eligible for Social Security, and tax 100 percent of Social Security benefits for beneficiaries with annual incomes above $250,000.</p>"
 Scheduled law,"<p><h4>Scheduled law</h4>Assumes that current public policies, business practices, and individual behaviors continue, and that Social Security benefits are paid as promised, even after the trust fund runs out.</p>"
 Payable law,"<p><h4>Payable law</h4>Assumes that current public policies, business practices, and individual behaviors continue, but reduces Social Security benefits by a uniform amount after the trust fund runs out so that all benefits in each year can be paid out of revenues from that year. </p>"
-
 RothIRA2,"<h4>RothIRA2</h4>
 
 <p>The <strong>RothIRA</strong> series all model pension reforms that include an employer mandate for firms that do not currently provide pension coverage to workers. These mandated employer plans (MEP) do not include employer contributions and include automatic enrollment. Investments are made in after-tax dollars and paid out tax free. The following scenarios vary the minimum firm size, the default contribution amount, the assumed share of workers that choose the default investment, whether they include auto escalation, and various other provisions including reenrollment, cash-out restrictions, contribution limits, and investment portfolio limits. </p>
@@ -462,3 +461,17 @@ MyRA2f,"<h4>MyRA2f (low-impact scenario)</h4>
 <li>One hundred percent of asset allocation is invested in the Thrift Savings Plan G-Fund.</li>
 </ul>
 "
+Reduce fees,<h4>Reduce fees</h4><p>DYNASIM subtracts 1 percentage point from both stock and bond returns for administrative fees. This simulation lowers the fee to 0.5 percentage points for both stock and bonds.</p>
+Rebalance every 5 years,<h4>Rebalance every 5 years</h4><p>Rebalance stock and bond allocations every five years instead of every year.</p>
+Low participation,<h4>Low participation</h4><p>Decrease the calculated probability of worker contributions conditional on having an offer by 15 percent: multiply the baseline predicted probability by 0.85.</p>
+High participation,<h4>High participation</h4><p>Increase the calculated probability of worker contributions conditional on having an offer by 15 percent: multiply the baseline predicted probability by 1.15.</p>
+Less risk,<h4>Less risk</h4><p>Invest all retirement account assets in lower-risk PIMCO RealRetirement series target date funds.</p>
+More risk,<h4>More risk</h4><p>Invest all retirement account assets in higher-risk Guidestone Fund target date funds.</p>
+No target-date funds,<h4>No target-date funds</h4><p>Eliminate the option to invest in target-date funds. </p>
+No auto-enrollment,<h4>No auto-enrollment</h4><p>Eliminate auto-enrollment.</p>
+No cash outs,<h4>No cash outs</h4><p>Don’t let workers take early distributions (cash out) from defined-contribution or Roth IRA plans. </p>
+All Roth-401(K) accounts #1,"<h4>All Roth-401(K) accounts #1</h4><p>Invest year 2014 after-tax defined-contribution contributions to a Roth 401(K) account, then use baseline pension assumptions after 2014. Examine the net present value of tax lifetime taxes and retirement savings.</p>"
+All Roth-401(K) accounts #2,"<h4>All Roth-401(K) accounts #2</h4><p>Beginning in 2014, invest all pre-tax defined-contribution contributions to a Roth-401(K) account. Examine the net present value of tax lifetime taxes and retirement savings. This option assumes workers reduce total annual consumption to offset the additional income taxes on Roth contributions that are not tax deferred.</p>"
+Mandated employer plans (60%),"<h4>Mandated employer plans (60%)</h4><p>Mandates Roth IRA plans for all firms with 10 or more workers. The plans have automatic enrollment, 3 percent default investments in target-date funds, and Roth adjusted gross income limits. 60 percent of participants use default settings.</p>"
+Mandated employer plans (100%),"<h4>Mandated employer plans (100%)</h4><p>Mandates Roth IRA plans for all firms with 10 or more workers. The plans have automatic enrollment, 3 percent default investments in target-date funds, and Roth adjusted gross income limits. 60 percent of participants use default settings. Mandated employer plan candidates are forced to participate and cash outs are eliminated.</p>"
+Repeat the 1970s,<h4>Repeat the 1970s</h4><p>Repeats the 1970 to 2017 historic sequence of real stock and real bond market returns beginning in 2018. Real rates of return were negative for much of the 1970s followed by rapid growth and volatile market crashes in 2001 and 2008. </p>

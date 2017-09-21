@@ -3,8 +3,8 @@ Opt0,Scheduled law,per capita,X:\programs\run912\opt0\BPCtableShellsOPT0.xlsx,X:
 Opt0,Scheduled law,equivalent,X:\programs\run912\opt0\BPCtableShellsEQOPT0.xlsx,X:\programs\run912\opt0\,BPCtableShellsEQOPT0.xlsx,FALSE
 Opt0,Payable law,per capita,X:\programs\run912\payable\BPCtableShellsPayable.xlsx,X:\programs\run912\payable\,BPCtableShellsPayable.xlsx,FALSE
 Opt0,Payable law,equivalent,X:\programs\run912\payable\BPCtableShellsEquivalentPayable.xlsx,X:\programs\run912\payable\,BPCtableShellsEquivalentPayable.xlsx,FALSE
-BPC package,BPC package,per capita,X:\programs\Run912\Run5SaveOpt4\BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,X:\programs\Run912\Run5SaveOpt4\,BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,TRUE
-BPC package,BPC package,equivalent,X:\programs\Run912\Run5SaveOpt4\BPCtableShellsEquivalentRun5SaveOpt4.xlsx,X:\programs\Run912\Run5SaveOpt4\,BPCtableShellsEquivalentRun5SaveOpt4.xlsx,TRUE
+BPC package,BPC package,per capita,X:\programs\Run912\BPCrun5\BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,X:\programs\Run912\BPCrun5\,BPCtableShellsRun5SaveOpt4withSUPERTAX.xlsx,TRUE
+BPC package,BPC package,equivalent,X:\programs\Run912\BPCrun5\BPCtableShellsEquivalentRun5SaveOpt4withSUPERTAX.xlsx,X:\programs\Run912\BPCrun5\,BPCtableShellsEquivalentRun5SaveOpt4withSUPERTAX.xlsx,TRUE
 RothIRA2,RothIRA2,per capita,X:\programs\run912\RothIRA2\BPCtableShellsRothIRA2.xlsx,X:\programs\run912\RothIRA2\,BPCtableShellsRothIRA2.xlsx,FALSE
 RothIRA2,RothIRA2,equivalent,X:\programs\run912\RothIRA2\BPCtableShellsEquivalentRothIRA2.xlsx,X:\programs\run912\RothIRA2\,BPCtableShellsEquivalentRothIRA2.xlsx,FALSE
 RothIRA2allpart,RothIRA2allpart,per capita,X:\programs\run912\RothIRA2allpart\BPCtableShellsRothIRA2allpart.xlsx,X:\programs\run912\RothIRA2allpart\,BPCtableShellsRothIRA2allpart.xlsx,FALSE
@@ -73,3 +73,27 @@ SAVEopt4,SAVEopt4,per capita,X:\programs\run912\SAVEopt4\BPCtableShellsSaveOpt4.
 SAVEopt4,SAVEopt4,equivalent,X:\programs\run912\SAVEopt4\BPCtableShellsEquivalentSAVEopt4.xlsx,X:\programs\run912\SAVEopt4\,BPCtableShellsEquivalentSAVEopt4.xlsx,FALSE
 SAVEopt4b,SAVEopt4b,per capita,X:\programs\run912\SAVEopt4b\BPCtableShellsEquivalentSaveOpt4b.xlsx,X:\programs\run912\SAVEopt4b\,BPCtableShellsEquivalentSaveOpt4b.xlsx,FALSE
 SAVEopt4b,SAVEopt4b,equivalent,X:\programs\run912\SAVEopt4b\BPCtableShellsSaveOpt4b.xlsx,X:\programs\run912\SAVEopt4b\,BPCtableShellsSaveOpt4b.xlsx,FALSE
+DOL5yrRebalance,Rebalance every 5 years,per capita,X:\programs\run912\DOL5yrRebalance\BPCtableShellsDOL5yrRebalance.xlsx,X:\programs\run912\DOL5yrRebalance\,BPCtableShellsDOL5yrRebalance.xlsx,FALSE
+DOL5yrRebalance,Rebalance every 5 years,equivalent,X:\programs\run912\DOL5yrRebalance\BPCtableShellsEQUIVALENTDOL5yrRebalance.xlsx,X:\programs\run912\DOL5yrRebalance\,,FALSE
+DOLLowFee,Reduce fees,per capita,X:\programs\run912\DOLlowFEE\BPCtableShellsDOLlowfee.xlsx,X:\programs\run912\DOLlowFEE\,BPCtableShellsDOLlowfee.xlsx,FALSE
+DOLLowFee,Reduce fees,equivalent,X:\programs\run912\DOLlowFEE\BPCtableShellsEQUIVALENTDOLlowfee.xlsx,X:\programs\run912\DOLlowFEE\,BPCtableShellsEQUIVALENTDOLlowfee.xlsx,FALSE
+DOLNoTDF,No target-date funds,per capita,X:\programs\run912\DOLNoTDF\BPCtableShellsDOLNoTDF.xlsx,X:\programs\run912\DOLNoTDF\,BPCtableShellsDOLNoTDF.xlsx,FALSE
+DOLNoTDF,No target-date funds,equivalent,X:\programs\run912\DOLNoTDF\BPCtableShellsEQUIVALENTDOLNoTDF.xlsx,X:\programs\run912\DOLNoTDF\,BPCtableShellsEQUIVALENTNoTDF.xlsx,FALSE
+DOLhighPart,High participation,per capita,X:\programs\run912\DOLhighPart\BPCtableShellsDOLHighPart.xlsx,X:\programs\run912\DOLhighPart\,BPCtableShellsDOLHighPart.xlsx,FALSE
+DOLhighPart,High participation,equivalent,X:\programs\run912\DOLhighPart\BPCtableShellsEQUIVALENTDOLHighPart.xlsx,X:\programs\run912\DOLhighPart\,BPCtableShellsEQUIVALENTHighPart.xlsx,FALSE
+DOLlessRisk,Less risk,per capita,X:\programs\run912\DOLlessRisk\BPCtableShellsDOLLessRiskV2.xlsx,X:\programs\run912\DOLlessRisk\,BPCtableShellsDOLLessRiskV2.xlsx,FALSE
+DOLlessRisk,Less risk,equivalent,X:\programs\run912\DOLlessRisk\BPCtableShellsEQUIVALENTDOLLessRiskV2.xlsx,X:\programs\run912\DOLlessRisk\,BPCtableShellsEQUIVALENTDOLLessRiskV2.xlsx,FALSE
+DOLlowPart,Low participation,per capita,X:\programs\run912\DOLlowPart\BPCTableShellsDOLlowPartV2.xlsx,X:\programs\run912\DOLlowPart\,BPCTableShellsDOLlowPartV2.xlsx,FALSE
+DOLlowPart,Low participation,equivalent,X:\programs\run912\DOLlowPart\BPCtableShellsEQUIVALENTDOLlowPart.xlsx,X:\programs\run912\DOLlowPart\,BPCtableShellsEQUIVALENTDOLlowPart.xlsx,FALSE
+DOLmoreRisk,More risk,per capita,X:\programs\run912\DOLmoreRisk\BPCtableShellsDOLMoreRiskV2.xlsx,X:\programs\run912\DOLmoreRisk\,BPCtableShellsDOLMoreRiskV2.xlsx,FALSE
+DOLmoreRisk,More risk,equivalent,X:\programs\run912\DOLmoreRisk\BPCtableShellsEQUIVALENTDOLMoreRisk.xlsx,X:\programs\run912\DOLmoreRisk\,BPCtableShellsEQUIVALENTDOLMoreRisk.xlsx,FALSE
+NoAUTO,No auto-enrollment,per capita,X:\programs\run912\NoAUTO\BPCtableShellsNoAUTO.xlsx,X:\programs\run912\NoAUTO\,BPCtableShellsNoAUTO.xlsx,FALSE
+NoAUTO,No auto-enrollment,equivalent,X:\programs\run912\NoAUTO\BPCtableShellsEquivalentNoAuto.xlsx,X:\programs\run912\NoAUTO\,BPCtableShellsEquivalentNoAuto.xlsx,FALSE
+NoCashOut,No cash outs,per capita,X:\programs\run912\NoCashout\BPCtableShellsNoCashout.xlsx,X:\programs\run912\NoCashout\,BPCtableShellsNoCashout.xlsx,FALSE
+NoCashOut,No cash outs,equivalent,X:\programs\run912\NoCashout\BPCtableShellsEQUIVALENTNoCashout.xlsx,X:\programs\run912\NoCashout\,BPCtableShellsEQUIVALENTNoCashout.xlsx,FALSE
+NPVAllRoth,All Roth-401(K) accounts #1,per capita,X:\programs\run912\NPVallroth\BPCtableShellsNPVallroth.xlsx,X:\programs\run912\NPVallroth\,BPCtableShellsNPVallroth.xlsx,FALSE
+NPVAllRoth,All Roth-401(K) accounts #1,equivalent,X:\programs\run912\NPVallroth\BPCtableShellsEquivalentNPVallroth.xlsx,X:\programs\run912\NPVallroth\,BPCtableShellsEquivalentNPVallroth.xlsx,FALSE
+NPVRothSaver,All Roth-401(K) accounts #2,per capita,X:\programs\run912\NPVRothSaver\BPCtableShellsNPVrothsaver.xlsx,X:\programs\run912\NPVRothSaver\,BPCtableShellsNPVrothsaver.xlsx,FALSE
+NPVRothSaver,All Roth-401(K) accounts #2,equivalent,X:\programs\run912\NPVRothSaver\BPCtableShellsEquivalentNPVrothsaver.xlsx,X:\programs\run912\NPVRothSaver\,BPCtableShellsEquivalentNPVrothsaver.xlsx,FALSE
+DOLrepeat70s,Repeat the 1970s,per capita,X:\programs\run912\DOLrepeat70s\BPCtableShellsDOLrepeat70s.xlsx,X:\programs\run912\DOLrepeat70s\,BPCtableShellsDOLrepeat70s.xlsx,FALSE
+DOLrepeat70s,Repeat the 1970s,equivalent,X:\programs\run912\DOLrepeat70s\BPCtableShellsEQUIVALENTDOLrepeat70s.xlsx,X:\programs\run912\DOLrepeat70s\,BPCtableShellsEQUIVALENTDOLrepeat70s.xlsx,FALSE

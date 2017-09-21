@@ -2,6 +2,12 @@
   font-family: Lato;
 }
 
+/* Eliminate padding from entire application */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 6px;
+}
 
 .selectize-control {
   border: black;
