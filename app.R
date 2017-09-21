@@ -183,19 +183,20 @@ ui <- fluidPage(
                   label = "Pension Reform",
                   choices = c("Scheduled law" = "Scheduled law",
                               "BPC package" = "BPC package",
-                              "Low fees" = "Low fees",
+                              "Reduce fees" = "Reduce fees",
                               "Rebalance every 5 years" = "Rebalance every 5 years",
                               "Low participation" = "Low participation",
                               "High participation" = "High participation",
                               "Less risk" = "Less risk",
                               "More risk" = "More risk",
-                              "No target date funds" = "No target date funds",
+                              "No target-date funds" = "No target-date funds",
                               "No auto-enrollment" = "No auto-enrollment",
                               "No cash outs" = "No cash outs",
-                              "All Roth-401k accounts #1" = "All Roth-401k accounts #1",
-                              "All Roth-401k accounts #2" = "All Roth-401k accounts #2",
-                              #"Mandated employer plans (60%)" = "Mandated employer plans (60%)",
-                              #"Mandated employer plans (100%)" = "Mandated employer plans (100%)",
+                              "All Roth-401(K) accounts #1" = "All Roth-401(K) accounts #1",
+                              "All Roth-401(K) accounts #2" = "All Roth-401(K) accounts #2",
+                              "Mandated employer plans (60%)" = "Mandated employer plans (60%)",
+                              "Mandated employer plans (100%)" = "Mandated employer plans (100%)",
+                              "Repeat the 1970s" = "Repeat the 1970s",                              
                               "RothIRA2" = "RothIRA2",
                               "RothIRA2allpart" = "RothIRA2allpart",
                               "RothIRA2b" = "RothIRA2b",
@@ -417,9 +418,6 @@ server <- function(input, output) {
       summarize(min = min(value))
     
     y.min <- min(0, as.numeric(y.min))
-    
-    print(y.max)
-    print(y.min)
 
     graphr <- function(origin, line.placement, line.color){
     
@@ -427,9 +425,10 @@ server <- function(input, output) {
         ggplot() +
           geom_bar(aes(x = percentile, y = value, fill = subgroup), position = "dodge", stat = "identity") +
           scale_y_continuous(limits = c(y.min, as.numeric(y.max)), labels = scales::dollar) +
-          labs(caption = "DYNASIM3",
-               x = "Mean and percentiles",
-               y = NULL) +
+          labs(x = "Percentile",
+               y = NULL,
+               caption = "DYNASIM3
+                          Urban Institute") +
           expand_limits(y = origin) +
           geom_hline(size = 0.5, aes(yintercept = line.placement), color = line.color) +
           theme(axis.ticks.length = unit(0, "points"),

@@ -461,14 +461,17 @@ MyRA2f,"<h4>MyRA2f (low-impact scenario)</h4>
 <li>One hundred percent of asset allocation is invested in the Thrift Savings Plan G-Fund.</li>
 </ul>
 "
-Low fees,<h4>Low fees</h4><p>Reduce administrative fees from 1% to 0.5% on stocks and bonds. </p>
+Reduce fees,<h4>Reduce fees</h4><p>DYNASIM subtracts 1 percentage point from both stock and bond returns for administrative fees. This simulation lowers the fee to 0.5 percentage points for both stock and bonds.</p>
 Rebalance every 5 years,<h4>Rebalance every 5 years</h4><p>Rebalance stock and bond allocations every five years instead of every year.</p>
-Low participation,<h4>Low participation</h4><p>Decrease the probability of contributing to a defined-contribution retirement plan to 85% of its current level.</p>
-High participation,<h4>High participation</h4><p>Increase the probability of contributing to a defined-contribution retirement plan to 115% of its current level.</p>
+Low participation,<h4>Low participation</h4><p>Decrease the calculated probability of worker contributions conditional on having an offer by 15 percent: multiply the baseline predicted probability by 0.85.</p>
+High participation,<h4>High participation</h4><p>Increase the calculated probability of worker contributions conditional on having an offer by 15 percent: multiply the baseline predicted probability by 1.15.</p>
 Less risk,<h4>Less risk</h4><p>Invest all retirement account assets in lower-risk PIMCO RealRetirement series target date funds.</p>
 More risk,<h4>More risk</h4><p>Invest all retirement account assets in higher-risk Guidestone Fund target date funds.</p>
-No target date funds,<h4>No target date funds</h4><p>Eliminate the option to invest in target date funds. </p>
+No target-date funds,<h4>No target-date funds</h4><p>Eliminate the option to invest in target-date funds. </p>
 No auto-enrollment,<h4>No auto-enrollment</h4><p>Eliminate auto-enrollment.</p>
-No cash outs,<h4>No cash outs</h4><p>Eliminate cash outs.</p>
-All Roth-401k accounts #1,"<h4>All Roth-401k accounts #1</h4><p>Mandates Roth IRA plans for all firms with 10 or more workers. The plans have automatic enrollment, 3% default investments in target date funds, and Roth AGI limits. 60% of participants use default settings.</p>"
-All Roth-401k accounts #2,"<h4>All Roth-401k accounts #2</h4><p>Mandates Roth IRA plans for all firms with 10 or more workers. The plans have automatic enrollment, 3% default investments in target date funds, and Roth AGI limits. 60% of participants use default settings. Mandated employer plan candidates are forced to participate and cash outs are eliminated.</p>"
+No cash outs,<h4>No cash outs</h4><p>Don’t let workers take early distributions (cash out) from defined-contribution or Roth IRA plans. </p>
+All Roth-401(K) accounts #1,"<h4>All Roth-401(K) accounts #1</h4><p>Invest year 2014 after-tax defined-contribution contributions to a Roth 401(K) account, then use baseline pension assumptions after 2014. Examine the net present value of tax lifetime taxes and retirement savings.</p>"
+All Roth-401(K) accounts #2,"<h4>All Roth-401(K) accounts #2</h4><p>Beginning in 2014, invest all pre-tax defined-contribution contributions to a Roth-401(K) account. Examine the net present value of tax lifetime taxes and retirement savings. This option assumes workers reduce total annual consumption to offset the additional income taxes on Roth contributions that are not tax deferred.</p>"
+Mandated employer plans (60%),"<h4>Mandated employer plans (60%)</h4><p>Mandates Roth IRA plans for all firms with 10 or more workers. The plans have automatic enrollment, 3 percent default investments in target-date funds, and Roth adjusted gross income limits. 60 percent of participants use default settings.</p>"
+Mandated employer plans (100%),"<h4>Mandated employer plans (100%)</h4><p>Mandates Roth IRA plans for all firms with 10 or more workers. The plans have automatic enrollment, 3 percent default investments in target-date funds, and Roth adjusted gross income limits. 60 percent of participants use default settings. Mandated employer plan candidates are forced to participate and cash outs are eliminated.</p>"
+Repeat the 1970s,<h4>Repeat the 1970s</h4><p>Repeats the 1970 to 2017 historic sequence of real stock and real bond market returns beginning in 2018. Real rates of return were negative for much of the 1970s followed by rapid growth and volatile market crashes in 2001 and 2008. </p>
