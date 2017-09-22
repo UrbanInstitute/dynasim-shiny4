@@ -124,6 +124,7 @@ latoCSS <- "http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300itali
 ui <- fluidPage(
   
   tags$head(tags$link(rel = "stylesheet", type = "text/css", href = latoCSS)),
+  tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "bootstrap.css")),    
   tags$head(tags$script(src = "pym.min.js")),
   
   theme = "shiny.css",
@@ -333,6 +334,42 @@ ui <- fluidPage(
     )
     
   ),
+  
+  br(),
+  
+  fluidRow(
+    column(6,
+           h3("About the data"),
+           HTML("<p>The Urban Institute’s Dynamic Simulation of Income Model (DYNASIM) projects the size and characteristics (such as financial, health, and disability status) 
+                of the US population for the next 75 years. Using the best and most recent data available, it helps sort out how profound social, economic, and demographic 
+                shifts will likely affect older adults and their retirement as well astaxpayers, business, and government. The model can also show how outcomes would likely 
+                evolve under changes to public policies, business practices, or individual behaviors.</p>"),
+           HTML("<p><a href='https://www.urban.org/node/65826'>Read the DYNASIM primer</a></p>"),
+           HTML("<p><a href='https://www.urban.org/research/publication/dynamic-simulation-income-model-dynasim-overview'>Review the DYNASIM documentation</a></p>")
+           
+           ),
+    column(6,
+           h3("Project Credits"),
+           HTML("<p><i>This work was funded by the US Department of Labor’s Employee Benefits Security Administration. 
+                We are grateful to them and to all our funders, who make it possible for Urban Institute to advance its mission.</i></p> 
+                <p><i>The views expressed are those of the authors and should not be attributed to the Urban Institute, its trustees, 
+                or its funders. Funders do not determine research findings or the insights and recommendations of our experts. 
+                More information on our funding principles is available <a href='https://www.urban.org/support'>here</a>. 
+                Read our terms of service <a href='https://www.urban.org/terms-service'>here</a></i>.</p>"),
+           
+           h5(HTML("<div class='credit-labels'>RESEARCH")),
+           HTML("<div class='credit-names'><p><a href='https://www.urban.org/author/karen-e-smith'>Karen Smith</a></p></div>"),
+           h5(HTML("<div class='credit-labels'>DESIGN AND DEVELOPMENT")),
+           HTML("<div class='credit-names'><p><a href='https://www.urban.org/author/aaron-r-williams'>Aaron Williams</a>, <a href='https://www.urban.org/author/jerry-ta'>Jerry Ta</a>, and <a href='https://www.urban.org/author/benjamin-chartoff'>Ben Chartoff</a></p></div>"),
+           h5(HTML("<div class='credit-labels'>EDITING")),
+           HTML("<div class='credit-names'><p><a href='https://www.urban.org/author/michael-marazzi'>Michael Marazzi</a></p></div>"),
+           h5(HTML("<div class='credit-labels'>WRITING")),
+           HTML("<div class='credit-names'><p><a href = 'https://www.urban.org/author/karen-e-smith'>Karen Smith</a> and <a href='https://www.urban.org/author/aaron-r-williams'>Aaron Williams</a></p></div>"),
+           
+           HTML("Copyright &copy; <a href='https://www.urban.org/'>Urban Institute</a> 2017. View this project on <a href='https://github.com/urbaninstitute/dynasim-shiny1.git'>GitHub</a>.</p>")
+           )
+    ),
+
   tags$script(src = "activatePym.js")
 )
 
