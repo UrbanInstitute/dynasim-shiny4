@@ -1,6 +1,8 @@
 # dynasim-shiny4
 
-Interactive visualizations of DYNASIM projections of the distributions of wealth and incomes under different employer pension reforms and counterfactuals. 
+Interactive visualizations of DYNASIM projections of the distributions of wealth and incomes under different employer pension reforms and counterfactuals. [Link!](https://www.urban.org/policy-centers/cross-center-initiatives/program-retirement-policy/projects/dynasim-visualizing-older-americans-future-well-being/distribution-defined-contribution-pension-reform)
+
+![](www/shiny4.png)
 
 ## data
 
@@ -37,3 +39,7 @@ The R Shiny graphic is built using the [Urban Institute R theme](https://github.
 ## Authors
 * Aaron Williams
 * Karen Smith
+* Ben Chartoff
+* Jerry Ta
+* Michael Marazzi
+* Dave D'Orio

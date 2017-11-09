@@ -124,7 +124,8 @@ latoCSS <- "http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300itali
 ui <- fluidPage(
   
   tags$head(tags$link(rel = "stylesheet", type = "text/css", href = latoCSS)),
-  tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "bootstrap.css")),    
+  tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "bootstrap.css")),
+  tags$head(tags$base(target = "_blank")),  
   tags$head(tags$script(src = "pym.min.js")),
   
   theme = "shiny.css",
@@ -134,12 +135,12 @@ ui <- fluidPage(
     column(12,
            
            p("Defined-contribution pensions are an important source of 
-             retirement savings for future retirees. How can more Americans 
-             access the benefits of DC pensions and better prepare for 
-             retirement? Use this interactive tool to explore the impacts of DC 
-             pension reform across the income and wealth distributions for 
-             different populations from 2015 to 2065.")
-           
+             retirement savings for future older Americans. How can more 
+             Americans access the benefits of defined-contribution pensions and 
+             better prepare for retirement? Use this interactive tool to 
+             explore the impacts of defined-contribution pension reform across 
+             the income and wealth distributions for current and future retirees 
+             from 2015 to 2065.")
            )
   ),
   
@@ -183,7 +184,7 @@ ui <- fluidPage(
       selectInput(inputId = "option",
                   label = "Pension Reform",
                   choices = c("Scheduled law" = "Scheduled law",
-                              "BPC package" = "BPC package",
+                              "Bipartisan Policy Center package" = "Bipartisan Policy Center package",
                               "Reduce fees" = "Reduce fees",
                               "Rebalance every 5 years" = "Rebalance every 5 years",
                               "Low participation" = "Low participation",
@@ -193,10 +194,6 @@ ui <- fluidPage(
                               "No target-date funds" = "No target-date funds",
                               "No auto-enrollment" = "No auto-enrollment",
                               "No cash outs" = "No cash outs",
-                              "All Roth-401(K) accounts #1" = "All Roth-401(K) accounts #1",
-                              "All Roth-401(K) accounts #2" = "All Roth-401(K) accounts #2",
-                              "Mandated employer plans (60%)" = "Mandated employer plans (60%)",
-                              "Mandated employer plans (100%)" = "Mandated employer plans (100%)",
                               "Repeat the 1970s" = "Repeat the 1970s",                              
                               "RothIRA2" = "RothIRA2",
                               "RothIRA2allpart" = "RothIRA2allpart",
@@ -342,10 +339,11 @@ ui <- fluidPage(
            h3("About the data"),
            HTML("<p>The Urban Institute’s Dynamic Simulation of Income Model (DYNASIM) projects the size and characteristics (such as financial, health, and disability status) 
                 of the US population for the next 75 years. Using the best and most recent data available, it helps sort out how profound social, economic, and demographic 
-                shifts will likely affect older adults and their retirement as well astaxpayers, business, and government. The model can also show how outcomes would likely 
+                shifts will likely affect older adults and their retirement as well as taxpayers, business, and government. The model can also show how outcomes would likely 
                 evolve under changes to public policies, business practices, or individual behaviors.</p>"),
            HTML("<p><a href='https://www.urban.org/node/65826'>Read the DYNASIM primer</a></p>"),
-           HTML("<p><a href='https://www.urban.org/research/publication/dynamic-simulation-income-model-dynasim-overview'>Review the DYNASIM documentation</a></p>")
+           HTML("<p><a href='https://www.urban.org/research/publication/dynamic-simulation-income-model-dynasim-overview'>Review the DYNASIM documentation</a></p>"),
+           HTML("<p>Questions about DYNASIM? <a href='mailto:retirementpolicy@urban.org' target='_self'>Contact us</a>.</p>")
            
            ),
     column(6,
@@ -366,7 +364,7 @@ ui <- fluidPage(
            h5(HTML("<div class='credit-labels'>WRITING")),
            HTML("<div class='credit-names'><p><a href = 'https://www.urban.org/author/karen-e-smith'>Karen Smith</a> and <a href='https://www.urban.org/author/aaron-r-williams'>Aaron Williams</a></p></div>"),
            
-           HTML("Copyright &copy; <a href='https://www.urban.org/'>Urban Institute</a> 2017. View this project on <a href='https://github.com/urbaninstitute/dynasim-shiny1.git'>GitHub</a>.</p>")
+           HTML("Copyright &copy; <a href='https://www.urban.org/'>Urban Institute</a> September 2017. View this project on <a href='https://github.com/urbaninstitute/dynasim-shiny1.git'>GitHub</a>.</p>")
            )
     ),
 
@@ -405,20 +403,20 @@ server <- function(input, output) {
     if (input$comparison == "level") {
       input$option
     } else {
-      paste(input$option, "vs.", tolower(input$baseline))
+      paste(input$option, "versus", tolower(input$baseline))
     }
     
   })
   
   output$subtitleb <- renderText({
     
-    if (input$group == "All Individuals") {"Everyone ages 62+, 2015 dollars"} else
-    if (input$group == "Sex") {"Ages 62+ by sex, 2015 dollars"} else
-    if (input$group == "Race/Ethnicity") {"Ages 62+ by race or ethnicity, 2015 dollars"} else
-    if (input$group == "Education") {"Ages 62+ by education, 2015 dollars"} else
-    if (input$group == "Marital Status") {"Ages 62+ by marital status, 2015 dollars"} else
-    if (input$group == "Income Quintile") {"Ages 62+ by shared income quintile, 2015 dollars"} else
-    if (input$group == "Lifetime Earnings Quintile") {"Ages 62+ by shared lifetime earnings quintile, 2015 dollars"}
+    if (input$group == "All Individuals") {"Everyone age 62 and older, 2015 dollars"} else
+    if (input$group == "Sex") {"Everyone age 62 and older by sex, 2015 dollars"} else
+    if (input$group == "Race/Ethnicity") {"Everyone age 62 and older by race or ethnicity, 2015 dollars"} else
+    if (input$group == "Education") {"Everyone age 62 and older by education, 2015 dollars"} else
+    if (input$group == "Marital Status") {"Everyone age 62 and older by marital status, 2015 dollars"} else
+    if (input$group == "Income Quintile") {"Everyone age 62 and older by shared income quintile, 2015 dollars"} else
+    if (input$group == "Lifetime Earnings Quintile") {"Everyone age 62 and older by shared lifetime earnings quintile, 2015 dollars"}
   
     })
 
